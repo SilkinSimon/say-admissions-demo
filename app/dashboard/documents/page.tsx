@@ -10,7 +10,7 @@ export default function DocumentsPage() {
   return (
     <div className="max-w-4xl mx-auto space-y-6">
       <header>
-        <h1 className="text-3xl font-bold text-gray-900">Мои документы 📄</h1>
+        <h1 className="text-3xl font-bold text-gray-900">Мои документы</h1>
         <p className="text-gray-500 mt-1">Загрузите необходимые файлы для подачи заявок.</p>
       </header>
 

@@ -2,15 +2,15 @@ import { CheckCircle2, Clock, XCircle } from "lucide-react";
 
 export default function DashboardPage() {
   const applications = [
-    { id: 1, uni: "Stanford University", country: "🇺🇸 США", major: "Computer Science", status: "pending" },
-    { id: 2, uni: "Technical University of Munich", country: "🇩🇪 Германия", major: "Data Engineering", status: "accepted" },
-    { id: 3, uni: "UCL", country: "🇬🇧 Великобритания", major: "Software Engineering", status: "rejected" },
+    { id: 1, uni: "Stanford University", country: "США", major: "Computer Science", status: "pending" },
+    { id: 2, uni: "Technical University of Munich", country: "Германия", major: "Data Engineering", status: "accepted" },
+    { id: 3, uni: "UCL", country: "Великобритания", major: "Software Engineering", status: "rejected" },
   ];
 
   return (
     <div className="max-w-5xl mx-auto space-y-8">
       <header>
-        <h1 className="text-3xl font-bold text-gray-900">Добро пожаловать, Алексей 👋</h1>
+        <h1 className="text-3xl font-bold text-gray-900">Добро пожаловать, Алексей</h1>
         <p className="text-gray-500 mt-1">Твой прогресс поступления и актуальные статусы.</p>
       </header>
 

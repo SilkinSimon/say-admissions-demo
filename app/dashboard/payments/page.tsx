@@ -4,7 +4,7 @@ export default function PaymentsPage() {
   return (
     <div className="max-w-4xl mx-auto space-y-8">
       <header>
-        <h1 className="text-3xl font-bold text-gray-900">Оплата услуг 💳</h1>
+        <h1 className="text-3xl font-bold text-gray-900">Оплата услуг</h1>
         <p className="text-gray-500 mt-1">Управление балансом и история платежей.</p>
       </header>
 
